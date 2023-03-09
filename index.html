@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Title-->
+    <title>SMIT STUDENT RECORD</title>
+    <link rel="stylesheet" type="text/css" href="file2.css" />
+    
+</head>
+
+
+
+<body style="background-color: rgb(255, 255, 255)">
+
+	<CENTER><h2>Sikkim Manipal Institute of Technology</h2></CENTER>
+    <img class = "logo" src="https://admissionadvice.in/wp-content/uploads/2021/02/SMIT-2021.png"alt="Can't load image">
+
+    <!--Table-->
+    <table>
+        <!--Row-1-->
+        <tr>
+            <!--Column-1-->
+            <td>
+                <!--Form-->
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                	<h2 class="abc">Log In here</h2>
+                  <!--div-1-->
+                    <div>
+                        <label>Full Name*</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="NamevalidationError">This field is required</label>
+                        <!--Input User Name-->
+                        <input type="text" name="Name" id="Name" placeholder="Enter your Full Name" required>
+                    </div>
+                    <!--div-2-->
+                    <div>
+                        <label>Reg no*</label>
+                        <!--Validation Error-->
+                        <label class="validation-error hide" id="regNovalidationError" >This field is required</label>
+                        <!--Input Roll No-->
+                        <input type="text" name="regno" id="regno" placeholder="Enter your Registration Number" required>
+                    </div>
+                    <!--div-3-->
+                    <!-- comment -->
+
+
+
+
+                    <!--div-6-->
+                    <div class="form-action-buttons">
+                        <!--Input Button-->
+                        <input type="submit" value="Log In">
+                    </div>
+                </form>
+            </td>
+
+            <!-- comment end -->
+            <!--Column-2-->
+            
+        </tr>
+    </table>
+
+        
+    </body>
